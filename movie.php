@@ -11,7 +11,7 @@ class Movie{
     public $valutazione;
     public $attori;
 
-function __construct($_name, $_genere, $_durata, $_lingua, $_valutazione, Attori $_attori){
+function __construct($_name, $_genere, $_durata, $_lingua, $_valutazione, Attori $_attori = null){
     $this->name = $_name;
     $this->genere = $_genere;
     $this->durata = $_durata;
